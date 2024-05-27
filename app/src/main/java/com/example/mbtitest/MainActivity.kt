@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val btn_start = findViewById<ImageView>(R.id.iv_start)
         btn_start.setOnClickListener{
             val intent = Intent(this, TestActivity::class.java)
+            //asdf
             startActivity(intent)
         }
     }
